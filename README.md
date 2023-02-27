@@ -27,7 +27,7 @@ rd.drop()
 ```python
 pip show pandas
 ```
-### Results in console
+### Output
 ```
 Name: pandas
 Version: 1.5.1
@@ -45,7 +45,7 @@ Required-by: xarrayfolder)
 ```python
 name = rd.getarray()
 ```
-### Result in console
+### Output
 ```
 > Excel name, extension is required ?(Check if the array is on the right folder) 
 ``` 
@@ -61,7 +61,7 @@ array = rd.read_excel(name)
 ```python
 rd.generate_sql(array[0], array[1],array[2],array[3], "name_of_sql_file")
 ```
-### Result in console
+### Output
 ```
 > SQL File Name (Extension didn't require): 
 > The file was perfectly create !
@@ -70,7 +70,7 @@ rd.generate_sql(array[0], array[1],array[2],array[3], "name_of_sql_file")
 ```python
 rd.drop()
 ```
-### Result in console
+### Output
 ```
 >   Wich file you want to delete (Extension Required): 
 >  "File yourfile.ex deleted."
